@@ -52,8 +52,8 @@ Project: https://github.com/sickcodes/osx-serial-generator/
 License: GPLv3+
 "
 
-OPENCORE_IMAGE_MAKER_URL='https://raw.gitmirror.com/sickcodes/osx-serial-generator/master/opencore-image-ng.sh'
-MASTER_PLIST_URL='https://raw.gitmirror.com/sickcodes/osx-serial-generator/master/config-nopicker-custom.plist'
+OPENCORE_IMAGE_MAKER_URL='https://raw.gitmirror.com/gitboy-tech/osx-serial-generator/master/opencore-image-ng.sh'
+MASTER_PLIST_URL='https://raw.gitmirror.com/gitboy-tech/osx-serial-generator/master/config-nopicker-custom.plist'
 
 # gather arguments
 while (( "$#" )); do
