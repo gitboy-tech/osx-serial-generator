@@ -57,8 +57,8 @@ Project: https://github.com/sickcodes/osx-serial-generator/
 License: GPLv3+
 "
 
-OPENCORE_IMAGE_MAKER_URL='https://raw.gitmirror.com/sickcodes/osx-serial-generator/master/opencore-image-ng.sh'
-MASTER_PLIST_URL='https://raw.gitmirror.com/sickcodes/osx-serial-generator/master/config-nopicker-custom.plist'
+OPENCORE_IMAGE_MAKER_URL='https://raw.gitmirror.com/gitboy-tech/osx-serial-generator/master/opencore-image-ng.sh'
+MASTER_PLIST_URL='https://raw.gitmirror.com/gitboy-tech/osx-serial-generator/master/config-nopicker-custom.plist'
 
 # gather arguments
 while (( "$#" )); do
@@ -233,7 +233,7 @@ download_qcow_efi_folder () {
     # check if we are inside OSX-KVM already
     # if not, download OSX-KVM locally
     [ -d ./OpenCore/EFI/ ] || {
-        [ -d ./OSX-KVM/ ] || git clone --recurse-submodules --depth 1 https://gitclone.com/github.com/kholia/OSX-KVM.git
+        [ -d ./OSX-KVM/ ] || git clone --recurse-submodules --depth 1 https://gitclone.com/github.com/gitboy-tech/OSX-KVM.git
         export EFI_FOLDER="./OSX-KVM/${EFI_FOLDER}"
     }
     
